@@ -1,0 +1,27 @@
+@media (max-width: 900px) {
+  .blogs_main_news {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+  .blogs_news_img_container {
+    grid-row: 2;
+  }
+  .blogs_news_info_container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .blogs_posts_container .post_container {
+    max-width: 45%;
+  }
+  .sobre_mi_container {
+    display: block;
+  }
+  .proyecto_realizados_container {
+    max-width: 40%;
+  }
+}
+@media (max-width: 600px) {
+  .blogs_posts_container .post_container {
+    max-width: 95%;
+  }
+}
